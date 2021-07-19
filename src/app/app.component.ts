@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'En-Quotes';
+  quotes:string[];
+  constructor(){
+    this.quotes =['Life is what happens ','Get busy living or get busy dying','You only live once']
+    
+  }
 }

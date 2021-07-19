@@ -3,7 +3,17 @@
 
         <div id="q1">
             <h1>{{title}}</h1>
-            A quote is an expression of one's thoughts and experiences while having an outlook of the future.
+            <p>A quote is an expression of one's thoughts <br> and experiences while having an outlook<br> of the future. </p><br>
+
         </div>
+        <div>
+            <h2>Quote on quote</h2>
+            <ul>
+                <li *ngFor='let quote of quotes'>
+                    {{quotes}}
+                </li>
+            </ul>
+        </div>
+
     </main>
 </body>

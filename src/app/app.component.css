@@ -1,13 +1,26 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: linear-gradient(to left lime, rgb(5, 46, 5));
-}
-
-#q1 {
-    float: right;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: linear-gradient(to right, rgba(0, 255, 0, 0.6), rgba(113, 144, 184, 0.5));
+    }
+    
+    #q1 {
+        text-align: center;
+        margin-bottom: 0cm;
+        height: 70vh;
+    }
+    
+    #q1 h1 {
+        padding-top: 2cm;
+        margin-bottom: 2cm;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 4px;
+    }
+    
+    #q1 p {
+        transform: translateY(60%);
+        font-size: larger;
+        text-decoration: wavy;
+    }
