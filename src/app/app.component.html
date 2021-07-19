@@ -10,9 +10,10 @@
             <h2>Quote on quote</h2>
             <ul>
                 <li *ngFor='let quote of quotes'>
-                    {{quotes}}
+                    {{quote.name}}
                 </li>
             </ul>
+            <p *ngIf='quotes.length >5'>Your quotes are too many</p>
         </div>
 
     </main>
