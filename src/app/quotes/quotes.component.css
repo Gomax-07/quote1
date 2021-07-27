@@ -5,6 +5,7 @@
     list-style-type: none;
     padding: 0;
     width: 15em;
+    transform: translateX(40%);
 }
 
 .quotes li {
@@ -14,7 +15,7 @@
     background-color: #EEE;
     margin: .7em;
     padding: .3em 0;
-    height: 1.6em;
+    height: 2.1em;
     border-radius: 7px;
 }
 
@@ -56,4 +57,10 @@
 
 input {
     padding: .5rem;
+}
+
+h1 {
+    align-content: center;
+    justify-content: center;
+    transform: translateX(40%);
 }
