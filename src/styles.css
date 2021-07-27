@@ -8,4 +8,5 @@
     padding: 0;
     box-sizing: border-box;
     font-family: raleway;
+    background: linear-gradient(to right, rgba(200, 200, 226, 0.281), green);
 }
