@@ -8,4 +8,5 @@ export const  QUOTES: Quote [] =[
   {description:'Flow is life',author:'Jonah'},
   {description:'Life is life',author:'Amy'},
   {description:'Flow is flow',author:'Cal'}
+  
 ];
