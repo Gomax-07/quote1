@@ -1,0 +1,17 @@
+<h1>En-quote</h1>
+<ul class="quotes">
+    <li *ngFor="let quote of quotes" [class.selected]="quote === selectedQuote" (click)="OnSelect(quote)">
+        <span class="badge">{{quote.author}}</span> {{quote.description}}
+    </li>
+</ul>
+
+<div *ngIf="selectedQuote">
+
+    <h2>{{selectedQuote.author | uppercase}} Details</h2>
+    <div><span>author: </span>{{selectedQuote.author}}</div>
+    <div>
+        <label for="quote-description">Quote name: </label>
+        <input id="quote-description" [(ngModel)]="selectedQuote.description" placeholder="Quote">
+    </div>
+
+</div>
