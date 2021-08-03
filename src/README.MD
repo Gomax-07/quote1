@@ -1,14 +1,8 @@
 # En-quote
 
-## Program author/Contact infomation:
-
-.Macharia John.
-
-Contact: gikmach@gmail.com
-
-
 ## DESCRITION
 
+En-quote : The app enables the user to create,toggle and delete quotes while also enabling him/her to observe output of others through the upvotes/downvotes.
 
 
 ## SETUP
@@ -32,6 +26,14 @@ To access this project  on you local files, you can clone it using the following
 4. JAVASCRIPT.
 
 5. TYPESCRIPT.
+
+
+## Program author/Contact infomation:
+
+.Macharia John.
+
+Contact: gikmach@gmail.com
+
 
 
 ## LICENSE.
