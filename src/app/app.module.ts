@@ -11,10 +11,14 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { FormsModule } from '@angular/forms';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
     QuotesComponent,
+    
+   
    
    
     
