@@ -1,17 +1,30 @@
-<h1>En-quote</h1>
+<h1>
+    En-quotes</h1>
 <ul class="quotes">
-    <li *ngFor="let quote of quotes" [class.selected]="quote === selectedQuote" (click)="OnSelect(quote)">
+    <li *ngFor="let quote of quotes" [class.selected]="quote === selectedQuote" (click)="onSelect(quote)">
         <span class="badge">{{quote.author}}</span> {{quote.description}}
     </li>
 </ul>
 
 <div *ngIf="selectedQuote">
 
-    <h2>{{selectedQuote.author | uppercase}} Details</h2>
+    <h2>{{selectedQuote.description }} </h2>
     <div><span>author: </span>{{selectedQuote.author}}</div>
     <div>
-        <label for="quote-description">Quote name: </label>
-        <input id="quote-description" [(ngModel)]="selectedQuote.description" placeholder="Quote">
+        <label for="quote-description">quote-description: </label>
+        <input id="quote-description" [(ngModel)]="selectedQuote.description" placeholder="quote">
+    </div>
+    <div id='btn'>
+        <button class="material-icons">delete</button>
+    </div>
+    <div class="play-container">
+        <button (click)="countClick()" class="material-icons">thumb_up</button>
+        <p>{{clickCounter}}</p>
+
+
+        <button (click)="countClick1()" class="material-icons">thumb_down</button>
+        <p>{{clickCounter1}}</p>
+
     </div>
 
 </div>
