@@ -33,26 +33,6 @@ To access this project  on you local files, you can clone it using the following
 
 5. TYPESCRIPT.
 
-## BDD.
-
-The web, on opening, displays on the content, loads the forms and images.  The web display styled items, perfectly arranged.
-The form on the web allows the user to click into the any navigation button to select and the following inputs:
-
-
-           | input | Description |
-           |:--          |      :--- |
-           | Covid symptoms |  options eg: Yes/No |
-           
-           
- The site then allows a user to make a booking selections.
- The site allows the user to view all the details of their selection and click to move to the next step.
- 
- 
-           | input | Description | error when no selection is made "ensure all entires are filled correctly" |
-            |:--        |      :--- |    :---- |
-            
-            
-
 
 ## LICENSE.
 
